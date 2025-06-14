@@ -12,6 +12,11 @@ pkgs.mkShell {
     python313Packages.langchain-community
     python313Packages.pydantic
     python313Packages.pydantic-core
+    
+    python313Packages.numpy
+    python313Packages.sentence-transformers
+    python313Packages.faiss
+    
     python313Packages.pyqt6
     nix-eval-jobs
     nixMerger  # Your custom package
